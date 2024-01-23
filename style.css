@@ -189,3 +189,52 @@ a{
 .systum{
     color: #720455;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #756AB6; /* Adjust background color for mobile */
+    }
+
+    .mowa {
+        padding: 5%; /* Adjust padding for mobile */
+    }
+
+    .mm {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+    }
+
+    p > img {
+        height: 100px; /* Adjust image size for mobile */
+        width: 100px;
+        border: 3px solid #ffffff; /* Adjust border for mobile */
+    }
+
+    .social {
+        display: block; /* Adjust social icons for mobile */
+        text-align: center;
+    }
+
+    .jai,
+    #finn {
+        margin-left: 50px; /* Center social icons on mobile */
+    }
+
+    .centi {
+        padding: 20px; /* Adjust padding for mobile */
+    }
+
+    .sar {
+        margin-left: 0;
+        text-align: center; /* Adjust margin for mobile */
+    }
+
+    #homie,
+    .navbar-brand {
+        text-align: center; /* Center navigation items on mobile */
+    }
+    .eye{
+        text-align: center;
+        font-size: x-large;
+    }
+}
