@@ -1,0 +1,191 @@
+body{
+    background-color: #756AB6;
+}
+.mowa{
+    padding: 10%;
+    color: #ffffff;
+    
+}
+.mowa>p{
+    font-size: larger;
+    color: white;
+}
+.mowa>p2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: turquoise;
+}
+.re
+{
+    font-style: oblique;
+}
+.mm
+{
+    display: flex;
+    
+    justify-content: flex-start;
+    width: 100%;
+    gap: 30px;
+    flex-basis: 100px;
+    flex-shrink: 1;
+    text-align: left;
+}
+
+p>img{
+   
+    height: 100vh;
+   height: 150px;
+    width: 150px;
+    border-radius: 50%;
+   
+    
+    
+    border:5px solid #ffffff
+}
+
+.sar{
+    padding: 30px;
+    margin-left: 8%;
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: xx-large;
+}
+
+#cunt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: grid;
+    gap: 3px;
+    grid-template-rows: 80px auto auto auto;
+    grid-template-columns: 1fr 2fr;
+  
+}
+
+.sem{
+    font-family:'Cabin', sans-serif;
+    text-align: center;
+}
+.saa{
+    font-family: 'Teko', sans-serif;
+}
+
+.ramm{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.social{
+    
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 175px 1fr 1fr;
+    gap: 3px;
+}
+
+.jai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+.social{ 
+    display: block;
+    text-align: center;
+
+}
+}
+#finn{
+   
+    display: flex;
+    justify-content: center;
+    margin-left: 32px;
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    .jai{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    #finn{
+        display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    .centi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+}
+
+a{
+    color: black;
+}
+
+.centi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.hukum{
+   
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    color: #83C0C1;
+}
+.tiger{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+
+}
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    .mm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #530279;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+}
+.eye{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Lobster', sans-serif;
+    color: turquoise;
+    word-spacing: 10px;
+}
+.systum{
+    color: #720455;
+}
